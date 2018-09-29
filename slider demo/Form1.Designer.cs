@@ -121,7 +121,7 @@
             // 
             // pbxSquare
             // 
-            this.pbxSquare.BackColor = System.Drawing.Color.White;
+            this.pbxSquare.BackColor = System.Drawing.Color.Black;
             this.pbxSquare.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pbxSquare.Location = new System.Drawing.Point(556, 13);
             this.pbxSquare.Name = "pbxSquare";
@@ -138,7 +138,7 @@
             this.lblSaturationValue.Name = "lblSaturationValue";
             this.lblSaturationValue.Size = new System.Drawing.Size(250, 45);
             this.lblSaturationValue.TabIndex = 8;
-            this.lblSaturationValue.Text = "Saturation Value = 0";
+            this.lblSaturationValue.Text = "Saturation Value = 255";
             this.lblSaturationValue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // tbrSaturation
@@ -151,6 +151,7 @@
             this.tbrSaturation.TabIndex = 7;
             this.tbrSaturation.TickFrequency = 10;
             this.tbrSaturation.TickStyle = System.Windows.Forms.TickStyle.None;
+            this.tbrSaturation.Value = 255;
             this.tbrSaturation.Scroll += new System.EventHandler(this.tbrSaturation_Scroll);
             // 
             // btnReset
